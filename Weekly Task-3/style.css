@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-img {
+    height: 90vh;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.carousel-caption {
+    bottom: 30%;
+}
+
+.menu-img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+footer i {
+    cursor: pointer;
+}
+
+@media(max-width:768px) {
+
+    .hero-img {
+        height: 60vh;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+}
