@@ -1,0 +1,11 @@
+HTML(1991) ---> Tim Berner Lee
+CSS(1996) --->Hakon Wium 
+Java Script(1995) --->Brenden Eich
+ReactJS (2013)--->Jordan Watter SPA (library)
+Redux used  to (store)
+Git & GitHub (collaboration) 
+BootStrap (Twitter)
+Vercel (Deployment)
+
+#to create a html file we have to use .html extension.
+in each and every folder the first file name should be index.html
