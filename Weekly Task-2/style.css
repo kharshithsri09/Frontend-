@@ -1,0 +1,141 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.header{
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+/* Main Container */
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Blog Section */
+.blog-section{
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Blog Card */
+.blog-card{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(50% - 10px);
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.blog-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Blog Images */
+.blog-card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Blog Content */
+.blog-content{
+    padding: 15px;
+}
+
+.blog-content h2{
+    margin-bottom: 10px;
+    color: #111;
+}
+
+.blog-content p{
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Read More Link */
+.blog-content a{
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: 600;
+}
+
+.blog-content a:hover{
+    color: #ff4500;
+}
+
+/* Sidebar */
+.sidebar{
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.sidebar h3{
+    margin-bottom: 15px;
+}
+
+.sidebar ul{
+    list-style: none;
+}
+
+.sidebar ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Sidebar Hover */
+.sidebar ul li:hover{
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer{
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media(max-width: 768px){
+
+    .container{
+        flex-direction: column;
+    }
+
+    .blog-card{
+        width: 100%;
+    }
+}
